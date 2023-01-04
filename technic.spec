@@ -1,4 +1,4 @@
-%global srcname
+%global srcname technic
 
 Name: technic
 Version: 4.0.0
@@ -43,9 +43,9 @@ install and update mods.
 %dir %{_javadir}/%{name}
 %doc README.md
 %license LICENSE
-%files javadoc -f .mfiles-javadoc
+#%files javadoc -f .mfiles-javadoc
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
-* Wed Jan 14 2023 Ryan Jeffrey <ryan@ryanmj.xyz> 4.0.0-1
+* Wed Jan 4 2023 Ryan Jeffrey <ryan@ryanmj.xyz> 4.0.0-1
 - Initial packaging
